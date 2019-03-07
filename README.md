@@ -8,4 +8,7 @@ In 2017, I took a C++ introductory course at college and have been in love with 
 In 2018, I learned how to use the Google Script API to make a amateurish, but functional, database for the music school I work at. Before that, I had learnt a bunch of things about database design at KA's SQL course and with VBA tutorials on YouTube.  
 In the present, I have my eyes on OpenMW and really wish to be able to offer some contribution to the project. Learning git is my first step towards that goal.  
 
-The "main.cpp" file aims at refreshing my mind on everything I know about C++, so I can understand where I am at and how to proceed learning new things from there.
+The "main.cpp" file aims at refreshing my mind on everything I know about C++, so I can understand where I am at and how to proceed learning new things from there.  
+
+## Refresh Report
+[2019-03-07] I realized I will have to learn how to link libraries.
