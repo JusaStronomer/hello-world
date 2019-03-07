@@ -1,6 +1,5 @@
 #include<iostream>
 #include<string>
-#include<curses.h>
 
 int main(){
 
@@ -43,11 +42,14 @@ int main(){
                 error = true;
                 errorString = "Failed to subtract numbers.";
             }
+            break;
         case 3:
             answer = a * b;
+            break;
         default:
             error = true;
             errorString = "Invalid operation.";
+            std::cout << "The operation requested was: " << operation << std::endl;
             break;
     }
 
@@ -55,9 +57,6 @@ int main(){
         std::cout << "Operation complete. The answer is " << answer << "." << std::endl;
     else
         std::cout << errorString << std::endl;
-
-    getch();
-    cbreak();
 
     return 0;
 }
