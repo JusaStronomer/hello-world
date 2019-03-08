@@ -1,17 +1,28 @@
 # hello-world
+
 This is a tutorial repository.
 
-I am a law bachelor, physics student, music teacher and wannabe contributor to opensource projects.  
-My interest for programming started with Linux... I have been a Ubuntu user since about 2010, learning random things here and there to use this OS.  
-In 2015, I learned a bit of JavaScript at Khan Academy (KA).  
-In 2016, I kept doing a bunch of KA courses and exploring many different languages.  
-In 2017, I took a C++ introductory course at college and have been in love with C++ ever since (even though I am still super newbie).  
-In 2018, I learned how to use the Google Script API to make a amateurish, but functional, database for the music school I work at. Before that, I had spent a bunch of time trying to grasp something about database design at KA's SQL course and with VBA tutorials on YouTube.  
-In the present, I have my eyes on OpenMW and really wish to be able to offer some contribution to the project. Learning git is my first step towards that goal.  
+The aim of this is to create a C++ console application in which I can apply everything I learn about the language and programing in general.
 
-諦めせず頑張っておきます。  
+## About me
 
-The "main.cpp" file aims at refreshing my mind on everything I learned about C++ in the past, so I can understand where I am at and how to proceed learning new things from there... I am shocked to see how much of a newbie I am... however, I intend to fix that in the following months!  
+I am by no means a programmer... I am actually a mixture of many different things:  
+- I have dedicated 5 years of my life studying law (and I obtained a bachelor's degree);
+- I have been teaching music (piano and theory) since 2012;
+- I have been studying Physics since 2016;
+- I spend most of my time studying japanese, specially 古文, reading manga, playing games and watching anime.
 
-## Refresh Report
-[2019-03-07] I realized I need to learn how to link libraries in VSCode.
+## My history with programming
+
+My first contact with anything programming-relatable is learning the absolute basics of Bash so I could perform simple tasks on my Linux machine. I have been using Ubuntu (the simplest to use Linux distro, I believe) since 2010. Where I live (Brazil, State of Parana, City of Londrina), pirating Windows OSs and Microsoft's softwares is common practice... I always hated it, so using Linux, despite initially being a shocking experience, was one of the best things to happen in my life.
+
+My interest for programming started in 2015, at Khan Academy... I have been doing their programming courses until the preset. That means I am more familiar with JavaScript than any other language, which is reinforced by the fact that I have been working with the Google Script API to design and maintain a Database for my music school.
+
+In 2017, I took a introductory C++ course in college and have been in love with the language ever since! Following the work of YouTubers like TheChernoProject and Suraj Sharma, I have a daily supply of content to preserve this love.
+
+However what made me start working on GitHub and really learning C++ is my wish to contribute to the OpenMW project. If it weren't for that, I would just keep entertaining myself by watching other people code (specially the 2 YouTubers previously mentioned). I intend to document my progress until I am good enough to work on a real OpenMW Issue, and maybe beyond.
+
+## Progress Report
+[2019-03-06] I was able to install the Virtual Studio Code IDE in my Ubuntu 18.04 machine. Never said I hate Microsoft! What I hated was piracy... so I am very happy that VS Code is open source!  
+[2019-03-06] I remembered a lot of things C++ beginners learn and decided to try to use them in my hello word program.  
+[2019-03-07] It's notable to mention that I remembered how to pass by refference! It always confused me how the location of the ampersand (whether it's attached to the end of the type or to the beginning of the variable) "says" different things.
