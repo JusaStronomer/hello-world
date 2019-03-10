@@ -25,4 +25,5 @@ However what made me start working on GitHub and really learning C++ is my wish 
 ## Progress Report
 [2019-03-06] I was able to install the Virtual Studio Code IDE in my Ubuntu 18.04 machine. Never said I hate Microsoft! What I hated was piracy... so I am very happy that VS Code is open source!  
 [2019-03-06] I remembered a lot of things C++ beginners learn and decided to try to use them in my hello word program.  
-[2019-03-07] It's notable to mention that I remembered how to pass by refference! It always confused me how the location of the ampersand (whether it's attached to the end of the type or to the beginning of the variable) "says" different things.
+[2019-03-07] It's notable to mention that I remembered how to pass by refference! It always confused me how the location of the ampersand (whether it's attached to the end of the type or to the beginning of the variable) "says" different things.  
+[2019-03-10] I learned to make bash scripts to compile the code (using g++) and to clean the directory before a new compilation. Up until now, I had only used bash in the shell for real time tasks... this is my first time writing scripts!
