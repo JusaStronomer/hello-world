@@ -27,5 +27,5 @@ However what made me start working on GitHub and really learning C++ is my wish 
 [2019-03-06] I remembered a lot of things C++ beginners learn and decided to try to use them in my hello word program.  
 [2019-03-07] It's notable to mention that I remembered how to pass by refference! It always confused me how the location of the ampersand (whether it's attached to the end of the type or to the beginning of the variable) "says" different things.  
 [2019-03-10] I learned to make bash scripts to compile the code (using g++) and to clean the directory before a new compilation. Up until now, I had only used bash in the shell for real time tasks... this is my first time writing scripts!  
-[2019-03-10] I learned to make a basic makefile! Since this is not something I will be doing all the time, I am afraid of, eventually, just forgeting how to do it...
+[2019-03-10] I learned to make a basic makefile! Since this is not something I will be doing all the time, I am afraid of, eventually, just forgeting how to do it...  
 [2019-03-11] I started learning how to manage multiple files. I am working on it in a different branch... for now, only header files with functions, not classes and multiple cpp files... the next step will be learning how to compile everything and update the makefile.
