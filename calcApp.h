@@ -78,6 +78,7 @@ void runCalcApp(){
                 break;
             default:
                 std::cout << "Invalid choice. Going back to MAIN MENU..." << "\n";
+                calcLoop = false;
                 break;
         }
 
