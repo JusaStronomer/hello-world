@@ -29,4 +29,5 @@ However what made me start working on GitHub and really learning C++ is my wish 
 [2019-03-10] I learned to make bash scripts to compile the code (using g++) and to clean the directory before a new compilation. Up until now, I had only used bash in the shell for real time tasks... this is my first time writing scripts!  
 [2019-03-10] I learned to make a basic makefile! Since this is not something I will be doing all the time, I am afraid of, eventually, just forgeting how to do it...  
 [2019-03-13] I started learning how to manage multiple files. I am working on it in a different branch... for now, only header files with functions, not classes and multiple cpp files... the next step will be learning how to compile everything and update the makefile.  
-[2019-03-14] I learned how one doesn't need to compile header files, since they are copied into the cpp file through the include "preprocessor code"... in the end, as a wise man once said: "it just works".
+[2019-03-14] I learned how one doesn't need to compile header files, since they are copied into the cpp file through the include "preprocessor code"... in the end, as a wise man once said: "it just works".  
+[2019-03-04] I learned how to output data into a file using fstream!  
