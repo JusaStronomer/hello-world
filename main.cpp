@@ -9,7 +9,7 @@ void exitMainApp(bool &loop){
 
 int main(){
 
-    std::cout << "Hello World" << std::endl << std::endl;
+    std::cout << "Hello World" << "\n" << std::endl;
 
     //Variables for menu navigation
     int choice = 0;
@@ -27,7 +27,7 @@ int main(){
               << "(3) Close Application" << "\n" << "\n"
               << "What do you wish to do? ";
         std::cin >> choice;
-        std::cout << std::endl << std::endl;
+        std::cout << "\n" << std::endl;
 
         switch (choice)
         {
@@ -42,7 +42,7 @@ int main(){
                 break;
 
             default:
-                std::cout << choice << "is an invalid choice. Please chose from 1 to 3.";
+                std::cout << choice << "is an invalid choice. Please chose from 1 to 3." << "\n" << std::endl;
                 break;
         }
     }
