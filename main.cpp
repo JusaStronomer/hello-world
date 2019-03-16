@@ -2,6 +2,7 @@
 #include<string>
 #include"calcApp.h"
 #include"textApp.h"
+#include"arrayGame.h"
 
 void exitMainApp(bool &loop){
     loop = false;
@@ -24,7 +25,8 @@ int main(){
         std::cout << "*** MAIN MENU ***" << "\n"
               << "(1) Run calculation program" << "\n"
               << "(2) Run text editing program" << "\n"
-              << "(3) Close Application" << "\n" << "\n"
+              << "(3) Run array game" << "\n"
+              << "(4) Close Application" << "\n" << "\n"
               << "What do you wish to do? ";
         std::cin >> choice;
         std::cout << "\n" << std::endl;
@@ -38,6 +40,9 @@ int main(){
                 runTextApp();
                 break;
             case 3:
+                runArrayGame();
+                break;
+            case 4:
                 exitMainApp(mainLoop);
                 break;
 
