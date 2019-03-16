@@ -31,4 +31,5 @@ However what made me start working on GitHub and really learning C++ is my wish 
 [2019-03-13] I started learning how to manage multiple files. I am working on it in a different branch... for now, only header files with functions, not classes and multiple cpp files... the next step will be learning how to compile everything and update the makefile.  
 [2019-03-14] I learned how one doesn't need to compile header files, since they are copied into the cpp file through the include "preprocessor code"... in the end, as a wise man once said: "it just works".  
 [2019-03-14] I learned how to output data into a file using fstream!  
-[2019-03-15] I learned how to input data from a file using fstream!
+[2019-03-15] I learned how to input data from a file using fstream!  
+[2019-03-16] I learned how to use 2D arrays! Also, I learned how to work with directories using fstream and, using that, how to save and load data for an app.
