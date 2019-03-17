@@ -18,7 +18,7 @@ My first contact with anything programming-relatable is learning the absolute ba
 
 My interest for programming started in 2015, at Khan Academy... I have been doing their programming courses until the preset. That means I am more familiar with JavaScript than any other language, which is reinforced by the fact that I have been working with the Google Script API to design and maintain a Database for my music school.
 
-In 2017, I took a introductory C++ course in college and have been in love with the language ever since! Following the work of YouTubers like TheChernoProject and Suraj Sharma, I have a daily supply of content to preserve this love.
+In 2017, I took an introductory C++ course in college and have been in love with the language ever since! Following the work of YouTubers like TheChernoProject and Suraj Sharma, I have a daily supply of content to preserve this love.
 
 However what made me start working on GitHub and really learning C++ is my wish to contribute to the OpenMW project. If it weren't for that, I would just keep entertaining myself by watching other people code (specially the 2 YouTubers previously mentioned). I intend to document my progress until I am good enough to work on a real OpenMW Issue, and maybe beyond.
 
@@ -32,4 +32,4 @@ However what made me start working on GitHub and really learning C++ is my wish 
 [2019-03-14] I learned how one doesn't need to compile header files, since they are copied into the cpp file through the include "preprocessor code"... in the end, as a wise man once said: "it just works".  
 [2019-03-14] I learned how to output data into a file using fstream!  
 [2019-03-15] I learned how to input data from a file using fstream!  
-[2019-03-16] I learned how to use 2D arrays! Also, I learned how to work with directories using fstream and, using that, how to save and load data for an app.
+[2019-03-16] I learned how to use 2D arrays! Also, I learned how to work with directories using fstream and how to save and load data for an app.
