@@ -61,12 +61,14 @@ void writeText(){
 
     //Variables for file stream
     std::string fileName = "";
+    std::string tempFileName = "";
     std::string data = "";
     std::ofstream outFile;
 
     //Creating a new file or choosing an existing one
     std::cout << "What will be the name and extension of the text file?" << std::endl;
-    std::cin >> fileName;
+    std::cin >> tempFileName;
+    fileName = "AppData/" + tempFileName;
     std::cout << "\n" << std::endl;
 
     //Writing the text
@@ -92,6 +94,7 @@ void readText(){
 
     //Variables for file stream
     std::string fileName = "";
+    std::string tempFileName = "";
     std::string lines = "";
 
     //Variables for menu navigation
@@ -105,7 +108,8 @@ void readText(){
 
     //Data input
     std::cout << "What is the name and extension of the file you wish to read?" << std::endl;
-    std::cin >> fileName;
+    std::cin >> tempFileName;
+    fileName = "AppData/" + tempFileName;
 
     std::ifstream inFile(fileName);
     std::cin.ignore();
