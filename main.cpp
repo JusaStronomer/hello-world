@@ -4,10 +4,10 @@
 #include"textApp.h"
 #include"arrayGame.h"
 
-void exitMainApp(bool &loop){
-    loop = false;
-}
+//Function Prototypes
+void exitMainApp(bool &loop);
 
+//Main Function
 int main(){
 
     std::cout << "Hello World" << "\n" << std::endl;
@@ -53,4 +53,9 @@ int main(){
     }
 
     return 0;
+}
+
+//Function Definitions
+void exitMainApp(bool &loop){
+    loop = false;
 }

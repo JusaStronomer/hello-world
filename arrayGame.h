@@ -13,6 +13,66 @@ char grid[arrSize][arrSize];
 int x = 0;
 int y = 0;
 
+//Function Prototypes
+void saveGame();
+void loadGame();
+void drawGrid();
+void drawHUD();
+void move(bool &gameLoop);
+void startGame();
+
+//Main Function
+void runArrayGame(){
+
+    //Variables
+    int arrGame_choice = 0;
+    bool arrGame_loop1 = true;
+
+    while(arrGame_loop1){
+
+        //Grid Initialization
+        for(unsigned int i = 0; i < arrSize; i++){
+            for(unsigned int j = 0; j < arrSize; j++)
+            {
+                grid[i][j] = '+';
+            }    
+        }
+
+        //Menu
+        std::cout << "** Array Game Menu **" << std::endl;
+        std::cout << "(1) Start New Game" << std::endl;
+        std::cout << "(2) Load Game" << std::endl;
+        std::cout << "(3) Return to the previous menu" << std::endl;
+
+        std::cout << "What do you wish to do? ";
+        std::cin >> arrGame_choice;
+        std::cout << "\n" << std::endl;
+
+        switch (arrGame_choice)
+        {
+            case 1:
+                startGame();
+                break;
+            case 2:
+                loadGame();
+                startGame();
+                break;
+            case 3:
+                arrGame_loop1 = false;
+                break;
+            default:
+                std::cout << "Invalid choice. Going back to MAIN MENU..." << "\n" << std::endl;
+                arrGame_loop1 = false;
+                break;
+        }
+
+    }
+
+    
+
+}
+
+//Function Definitions
 
 void saveGame(){
 
@@ -171,56 +231,6 @@ void startGame(){
         drawGrid();
         drawHUD();
         move(arrGame_loop2);
-
-    }
-
-    
-
-}
-
-void runArrayGame(){
-
-    //Variables
-    int arrGame_choice = 0;
-    bool arrGame_loop1 = true;
-
-    while(arrGame_loop1){
-
-        //Grid Initialization
-        for(unsigned int i = 0; i < arrSize; i++){
-            for(unsigned int j = 0; j < arrSize; j++)
-            {
-                grid[i][j] = '+';
-            }    
-        }
-
-        //Menu
-        std::cout << "** Array Game Menu **" << std::endl;
-        std::cout << "(1) Start New Game" << std::endl;
-        std::cout << "(2) Load Game" << std::endl;
-        std::cout << "(3) Return to the previous menu" << std::endl;
-
-        std::cout << "What do you wish to do? ";
-        std::cin >> arrGame_choice;
-        std::cout << "\n" << std::endl;
-
-        switch (arrGame_choice)
-        {
-            case 1:
-                startGame();
-                break;
-            case 2:
-                loadGame();
-                startGame();
-                break;
-            case 3:
-                arrGame_loop1 = false;
-                break;
-            default:
-                std::cout << "Invalid choice. Going back to MAIN MENU..." << "\n" << std::endl;
-                arrGame_loop1 = false;
-                break;
-        }
 
     }
 

@@ -5,6 +5,58 @@
 #include<fstream>
 #include<string>
 
+//Function Prototypes
+void writeText();
+void readText();
+
+//Main Function
+void runTextApp(){
+
+    //Variable for looping
+    bool textLoop = true;
+
+    //Variables for menu navigation
+    int choice = 0;
+
+    //Variables for error handling
+    bool error = false;
+    std::string errorString = "";
+
+    
+    while(textLoop){
+        
+        std::cout << "** Text App Menu **" << std::endl;
+        std::cout << "(1) Write or overwrite a text file" << std::endl;
+        std::cout << "(2) Read a text file" << std::endl;
+        std::cout << "(3) Return to the previous menu" << std::endl;
+
+        std::cout << "What do you wish to do? ";
+        std::cin >> choice;
+        std::cout << "\n" << std::endl;
+
+        switch (choice)
+        {
+            case 1:
+                writeText();
+                break;
+            case 2:
+                readText();
+                break;
+            case 3:
+                std::cout << "Returning to Main Menu" << "\n" << std::endl;
+                textLoop = false;
+                break;
+            default:
+                error = true;
+                errorString = "Invalid choice";
+                break;
+        }
+    }
+    
+
+}
+
+//Function Definitions
 void writeText(){
 
     //Variables for file stream
@@ -79,52 +131,6 @@ void readText(){
     std::cout << "Enter a character to return to TEXT APP MENU..." << std::endl;
     std::cin >> readText_wait;
     std::cout << std::endl;
-}
-
-void runTextApp(){
-
-    //Variable for looping
-    bool textLoop = true;
-
-    //Variables for menu navigation
-    int choice = 0;
-
-    //Variables for error handling
-    bool error = false;
-    std::string errorString = "";
-
-    
-    while(textLoop){
-        
-        std::cout << "** Text App Menu **" << std::endl;
-        std::cout << "(1) Write or overwrite a text file" << std::endl;
-        std::cout << "(2) Read a text file" << std::endl;
-        std::cout << "(3) Return to the previous menu" << std::endl;
-
-        std::cout << "What do you wish to do? ";
-        std::cin >> choice;
-        std::cout << "\n" << std::endl;
-
-        switch (choice)
-        {
-            case 1:
-                writeText();
-                break;
-            case 2:
-                readText();
-                break;
-            case 3:
-                std::cout << "Returning to Main Menu" << "\n" << std::endl;
-                textLoop = false;
-                break;
-            default:
-                error = true;
-                errorString = "Invalid choice";
-                break;
-        }
-    }
-    
-
 }
 
 #endif
