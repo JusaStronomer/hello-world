@@ -33,4 +33,5 @@ However what made me start working on GitHub and really learning C++ is my wish 
 [2019-03-14] I learned how to output data into a file using fstream!  
 [2019-03-15] I learned how to input data from a file using fstream!  
 [2019-03-16] I learned how to use 2D arrays! Also, I learned how to work with directories using fstream and how to save and load data for an app.  
-[2019-03-17] I started to cultivate the habit of organizing functions into prototypes and definitions.
+[2019-03-17] I started to cultivate the habit of organizing functions into prototypes and definitions.  
+[2019-03-22] I learned how to create classes! I was actually already very familiar with Object Oriented Programming, but this is still a milestone. I started working in a personal finance database app, which will feature many classes and a, hopefully, pretty decent database system.
